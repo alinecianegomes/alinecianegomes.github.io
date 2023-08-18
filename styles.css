@@ -11,6 +11,7 @@ body, h1, h2, h3, p, ul, li, img, a {
 /* Estilos gerais */
 body {
     background-color: #ddcde0;
+    border-radius: 20px;
 }
 
 .header {
@@ -20,6 +21,7 @@ body {
     color: #13315C;
     box-shadow: 0px 0px 100px 20px rgba(214,220,255,0.8);
     border-radius: 20px;
+    border: 1px solid #234068ad;
 }
  
 .header h1 {
@@ -37,8 +39,9 @@ body {
     margin: 60px 0;
     padding: 50px;
     background-color: #D6DCFF;
-    box-shadow: 0px 0px 100px 20px rgba(214,220,255,0.8);
     border-radius: 20px;
+    border: 1px solid #234068ad;
+    box-shadow: 0px 0px 100px 20px rgba(214,220,255,0.8);
 }
 
 .about-me img {
@@ -59,81 +62,8 @@ body {
     padding: 50px;
     color: #13315C;
     background-color: #D6DCFF;
+    border-radius: 20px;
+    border: 1px solid #234068ad;
     box-shadow: 0px 0px 100px 20px rgba(214,220,255,0.8);   
-    border-radius: 20px;
     
-}
-
-.skills h2 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-}
-
-.skills ul {
-    list-style: disc;
-    font-size: 1.2rem;
-}
-
-.skills li {
-    margin-bottom: 10px;
-}
-
-.projects {
-    margin: 60px 0;
-    padding: 50px;
-    color: #13315C;
-    background-color: #D6DCFF;
-    box-shadow:  0px 0px 100px 20px rgba(214,220,255,0.8);
-    border-radius: 20px;
-}
-
-.projects h2 {
-    font-size: 1.8rem;
-    margin-bottom: 20px;
-}
-
-.project {
-    margin-bottom: 20px;
-    border-radius: 5px;
-}
-
-.project h3 {
-    font-size: 1.5rem;
-    margin-bottom: 5px;
-}
-
-.project p {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    color: #13315C;
-    text-align: justify;
-    
-}
-
-.project a {
-    font-size: 1.2rem;
-    color: #13315C;
-    text-decoration: none;
-    padding: 120px;
-}
-.project a:hover {
-    text-decoration: underline; 
-}
-
-.footer {
-    text-align: center;
-    padding: 30px;
-    color: #13315C;
-    background-color: #D6DCFF;
-    box-shadow: 0px 0px 100px 20px rgba(214,220,255,0.8);
-    border-radius: 20px;
-    }
-
-.footer a {
-    color: #13315C;
-    text-decoration: none;
-}
-
-.footer a:hover {
-    text-decoration: underline;
 }
